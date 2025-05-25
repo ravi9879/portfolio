@@ -52,7 +52,7 @@ function Portfolio() {
           <h2>I am a Passionate <span ref={el} /> </h2>
           <button className='hover_button'>
             {/* <a href='https://drive.google.com/file/d/1cIZuBQ7z8KKMouWDVmh5AkdabtDro1Mc/view?usp=sharing'>Download Resume</a> */}
-            <a href='https://drive.google.com/file/d/1yH7PeQvYzDcPHjRJAzD33jWiPtIItSHQ/view'>Download Resume</a>
+            <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1yH7PeQvYzDcPHjRJAzD33jWiPtIItSHQ/view'>Download Resume</a>
           </button>
           <button className='hover_button' onClick={connect} >Connect To Me</button>
           <footer>
@@ -60,22 +60,14 @@ function Portfolio() {
             <a href='https://www.instagram.com/ravigupta7727/?hl=en'><img src={insta} alt={insta} className='all' /></a>
             <a href='https://www.facebook.com/profile.php?id=100014389154807'><img src={fb} alt={fb} className='all' /></a>
             <a href='https://github.com/ravi9879'><img src={github} alt={github} className='all' /></a>
-
-            {/* <a href='https://github3.com/ravi987'><img src={github1} alt={github1} className='all' /></a>   */}
-          </footer>
+          </footer>  
         </div>
 
 
       </div>
-      {/* <footer>  */}
-      {/* <img src={fb} alt={fb} className='all' />
-        <a href='https://github.com/ravi9879'><img src={insta} alt={insta} className='all'/></a>
-        <img src={insta} alt={insta} className='all'/>
-        <img src={fb} alt={fb} className='all' /> 
-      </footer> */}
-
     </>
   )
 }
 
 export default Portfolio  
+ 

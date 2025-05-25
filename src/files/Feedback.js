@@ -8,6 +8,7 @@ function Feedback() {
   // const [name, setname] = useState('');
   // const [email, setemail] = useState('');
   // const [feedback, setfeedback] = useState('');
+  const [loading, setLoading] = useState(true);
 
   const navigate = useNavigate();
 
@@ -32,9 +33,10 @@ function Feedback() {
 
   useEffect(() => {
     // axios.get('http://localhost:800/getfeedback/').then((res) => {
-      axios.get('https://portfolio-backend-three-xi.vercel.app/getfeedback/').then((res) => {
+    axios.get('https://portfolio-backend-three-xi.vercel.app/getfeedback/').then((res) => {
       // console.log(res.data) ;
       setstud(res.data);
+      setLoading(false);
     })
       .catch(err => console.log(err));
   }, [])
@@ -42,7 +44,13 @@ function Feedback() {
   return (
     <>
 
-      <div className='data-box' >
+      <div className='data-box' > 
+        {loading ? (
+          <div className="flex justify-center items-center py-10">
+            <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 border-solid"></div>
+            <span className="ml-4 text-blue-600 font-semibold text-lg">Loading feedback...</span>
+          </div>
+        ) : (
         <table>
           <thead>
             <tr>
@@ -67,6 +75,7 @@ function Feedback() {
           </tbody>
 
         </table>
+        )}
       </div>
       <form onSubmit={se} className='flex-2' id='feed-box'>
         <h3>Give Your Feedback </h3>
@@ -74,10 +83,13 @@ function Feedback() {
         <p>Email ID : <input type="text" name='email' placeholder="enter your email " id='email' /></p>
         <p>Feedback : <br></br><textarea name='feedback' placeholder="enter your Feedback " id='feed' cols="30" rows="5"></textarea></p>
         <button className='hover_button'>Submit</button>
-      </form>
+      </form>  
     </>
 
   )
 }
 
 export default Feedback
+
+
+
