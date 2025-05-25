@@ -17,8 +17,8 @@ function Feedback() {
       let name = document.querySelector('#name');
       let email = document.querySelector('#email');
       let feedback = document.querySelector('#feed');
-      await axios.post('http://localhost:800/feedback/', { name: name.value, email: email.value, feedback: feedback.value })
-      // await axios.post('https://portfolio-backend-three-xi.vercel.app/feedback/', { name: name, email: email, feedback: feedback })
+      // await axios.post('http://localhost:800/feedback/', { name: name.value, email: email.value, feedback: feedback.value })
+      await axios.post('https://portfolio-backend-three-xi.vercel.app/feedback/', { name: name, email: email, feedback: feedback })
       alert("Your Feedback Has Been Recorded");
       navigate('/');
     }
@@ -31,8 +31,8 @@ function Feedback() {
 
 
   useEffect(() => {
-    axios.get('http://localhost:800/getfeedback/').then((res) => {
-      // axios.get('https://portfolio-backend-three-xi.vercel.app/getfeedback/').then((res) => {
+    // axios.get('http://localhost:800/getfeedback/').then((res) => {
+      axios.get('https://portfolio-backend-three-xi.vercel.app/getfeedback/').then((res) => {
       // console.log(res.data) ;
       setstud(res.data);
     })
