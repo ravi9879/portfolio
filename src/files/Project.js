@@ -20,7 +20,7 @@ function Project() {
           <li>Crud App</li>
           <img src={Crud} alt={Crud} className='pro' />
           <button style={{ "width": "100%" }} className='hover_button'>
-            <a href='https://crud-one-hazel.vercel.app/'>Visit The Page</a>
+            <a href='https://crud-one-hazel.vercel.app/'>Visit The Page</a>  
           </button>
         </ol>
       </div>
