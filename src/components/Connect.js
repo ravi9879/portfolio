@@ -12,7 +12,8 @@ function Connect() {
 
   const se = async (event) => {
     event.preventDefault();
-    try {
+    try { 
+      // console.log(event.target)
       let name = document.querySelector('#name');
       let email = document.querySelector('#email');
       let num = document.querySelector('#num');
@@ -28,7 +29,7 @@ function Connect() {
 
   return (
     <>
-      <form onSubmit={se} className='flex-2'>
+      <form onSubmit={se} className='flex-2'> 
         <h1>Enter Your Details </h1>
         <p>Name : <input type="text" name='name' placeholder="enter your name " id='name' /></p>
         <p>Email ID : <input type="text" name='email' placeholder="enter your email"  id='email' /></p>

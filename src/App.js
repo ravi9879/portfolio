@@ -1,14 +1,14 @@
 // import { BrowserRouter as Router, Routes, Route, Link , useLocation } from 'react-router-dom' ;  
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' ;  
-import Home from './files/Home.js' 
-import About from './files/About.js'
-import Project from './files/Project.js'
-import Achievement from './files/Achievement.js'
-import Education from './files/Education.js'
-import Nav from './files/Nav.js'
-import './files/Style.css'  
-import Connect from './files/Connect.js'
-import Feedback from './files/Feedback.js'
+import Home from './components/Home.js' 
+import About from './components/About.js'
+import Project from './components/Project.js'
+import Achievement from './components/Achievement.js'
+import Education from './components/Education.js'
+import Nav from './components/Nav.js'
+import './components/Style.css'   
+import Connect from './components/Connect.js'
+import Feedback from './components/Feedback.js'
 import * as React from 'react'
 
 

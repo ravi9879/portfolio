@@ -1,6 +1,7 @@
 import React from 'react'
 import Crud from './images/Crud.jpg'
 import suduko from './images/suduko.png'
+import chatApp from './images/chatApp.png'
 
 function Project() {
   return (
@@ -12,7 +13,12 @@ function Project() {
           <button className='hover_button' style={{ "width": "100%" }}>
             <a href='https://ecommerce-cyan-nine.vercel.app/'>Visit The Page</a>
           </button>
-          <li>Crud App</li>
+          <li>Smart Chat App</li> 
+          <img src={chatApp} alt ={chatApp} className='pro' />
+          <button className='hover_button' style={{ "width": "100%" }}>
+            <a href='https://dtu-chat.vercel.app/'>Visit The Page</a>
+          </button>
+          <li>School App</li>
           <img src={Crud} alt={Crud} className='pro' />
           <button style={{ "width": "100%" }} className='hover_button'>
             <a href='https://crud-one-hazel.vercel.app/'>Visit The Page</a>  
