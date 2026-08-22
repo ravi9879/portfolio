@@ -48,12 +48,11 @@ th {
   word-wrap: break-word;
 }
 
-
-.hover_button:hover{
+.hover_button:hover {
   background-color: rgb(0, 235, 252);
   /* width: 500px;
   border-radius: 50%; */
-} 
+}
 
 .container1 {
   display: flex;
@@ -69,9 +68,9 @@ span {
   color: rgb(44, 247, 33);
 }
 
-.personal { 
+.personal {
   animation: magnify 1.5s ease-in-out 0s backwards;
-  width: 500px; 
+  width: 500px;
 }
 
 @keyframes magnify {
@@ -117,7 +116,6 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 #feed-box {
@@ -138,7 +136,6 @@ button {
   /* margin-top: 30px; */
   /* margin-bottom: 50px; */
 }
- 
 
 .project {
   display: flex;
@@ -196,27 +193,22 @@ li {
 li span {
   color: red;
   animation: ski 1.5s ease-in-out 0s 1 forwards;
-
 }
 
 @keyframes ski {
   from {
-    color: white; 
+    color: white;
   }
 
-  to { 
-    color: rgb(255, 0, 111); 
+  to {
+    color: rgb(255, 0, 111);
   }
 }
 
-
-input , textarea {
+input,
+textarea {
   outline: none;
 }
-
-
-
-
 
 @media screen and (max-width: 1023px) {
   .all {
@@ -235,9 +227,8 @@ input , textarea {
     width: 100%;
   }
 
-
-  .box{
-    margin:2% 5% ;
+  .box {
+    margin: 2% 5%;
   }
 
   .personal {
@@ -249,11 +240,11 @@ input , textarea {
 
   @keyframes rotate {
     from {
-      width : 1% ; 
+      width: 1%;
     }
 
     to {
-      width: 50% ; 
+      width: 50%;
     }
   }
 
@@ -281,7 +272,15 @@ input , textarea {
   .project {
     margin: 1% 20%;
   }
- 
+
+  table,
+  tr,
+  th,
+  td { 
+    font-size:medium;
+    padding: 10px 5px; 
+  }
+
   /* table,
   tr,
   th,
