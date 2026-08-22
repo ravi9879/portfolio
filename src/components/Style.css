@@ -71,7 +71,7 @@ span {
 
 .personal { 
   animation: magnify 1.5s ease-in-out 0s backwards;
-  width: 300px; 
+  width: 500px; 
 }
 
 @keyframes magnify {
@@ -80,7 +80,7 @@ span {
   }
 
   to {
-    width: 300px;
+    width: 500px;
   }
 }
 

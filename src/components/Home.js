@@ -3,6 +3,7 @@ import Personal from './images/Personal.jpg'
 import linkedin from './images/linked.png'
 import insta from './images/insta.png'
 import fb from './images/fb.png'
+import Pic from './images/Pic.jpeg'
 import github from './images/github1.png'
 import Typed from 'typed.js';
 import { useNavigate } from 'react-router-dom';
@@ -15,7 +16,7 @@ function Portfolio() {
   //   p2.style.background = 'red';
   // });
 
-  const navigate = useNavigate();
+  const navigate = useNavigate();  
 
   const connect = () => {
     navigate('/connect')
@@ -46,7 +47,8 @@ function Portfolio() {
   return (
     <>
       <div className='flex-1'>
-        <img src={Personal} alt={Personal} className='personal' />
+        <img src={Pic} alt={Personal} className='personal' />
+        {/* <img src={Personal} alt={Personal} className='personal' /> */}
         <div className='flex-2'>
           <h2>Hi , I am <span>Ravi Prasad Gupta. </span></h2>
           <h2>I am a Passionate <span ref={el} /> </h2>
