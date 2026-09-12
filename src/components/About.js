@@ -9,8 +9,16 @@ function About() {
       <div className='box'>
         <img src={image} alt={image} className='pro' id='image' />
         <div className='about'>
-          <h3> I am A Enthusiastic <span>B.Tech</span>  student from <span>Delhi Technological University (DTU'26)</span>  In The Field Of <span>Mathematics And Computing(MCE)</span>.</h3>
-          <h3> A passionate developer, I thrive on problem-solving and love crafting innovative solutions. Collaborating with like-minded individuals excites me, as it brings out the best in our creations. With a growth-oriented mindset, I actively participate in hackathons and coding competitions. Exploring the latest tech trends keeps me ahead of the curve. My goal is to make a positive impact through technology, creating dynamic web applications that leave a lasting impression. Open to exciting opportunities, let's collaborate and build something extraordinary together!</h3>
+          <h3>I am a Software Engineer at <span>Zenarate India Private Limited</span> and a <span>B.Tech</span> graduate in <span>Mathematics and Computing</span> from <span>Delhi Technological University (DTU'26)</span>.</h3>
+
+          <h3>I am passionate about building scalable backend systems and solving complex engineering problems. My experience includes developing REST APIs and backend services using <span>Python, Flask, and SQL</span>, along with automating data-processing workflows using <span>AWS Glue</span>.</h3>
+
+          <h3>I enjoy turning real-world requirements into reliable, maintainable software and continuously improving system performance and efficiency. I have also built full-stack applications using <span>React.js, Node.js, Express.js, and MongoDB</span>, giving me experience across both frontend and backend development.</h3>
+
+          <h3>Alongside software development, I have a strong interest in <span>Data Structures & Algorithms and problem solving</span>, with <span>500+ LeetCode problems solved</span>.</h3>
+
+          <h3>I am always interested in learning new technologies, working on challenging engineering problems, and building products that create meaningful impact.</h3>
+
         </div> 
       </div>
 
