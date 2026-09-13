@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <div className='box'>
-        // <img src={image} alt={image} className='pro' id='image' />
+        {/*  <img src={image} alt={image} className='pro' id='image' /> */}
         <div className='about'>
           <h4>I am a Software Engineer at <span>Zenarate India Private Limited</span> and a <span>B.Tech</span> graduate in <span>Mathematics and Computing</span> from <span>Delhi Technological University (DTU'26)</span>.</h4>
 
